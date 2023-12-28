@@ -16,19 +16,11 @@ it  used  MVVM Architecture , Repository design pattern
 - dartz: (Functional programming utilities)
 - dio: (Making HTTP requests)
 - equatable: (Easier value comparison)
-- flutter: sdk: flutter (The core Flutter framework)
 - flutter_bloc: (Bloc state management library)
 - font_awesome_flutter: (Font Awesome icons)
 - get_it: (Dependency injection)
 - go_router: (Navigation and routing)
 - google_fonts: (Access to Google Fonts)
-- easy_localization: (Handling localization)
-- image_picker: (Picking images from the device's storage)
-- internet_connection_checker: (Checking internet connection status)
-- location: (Accessing user's location)
-- shared_preferences: (Storing and retrieving simple data locally)
-- flutter_screenutil: (Building responsive UIs)
-- google_maps_flutter: (Integrating Google Maps)
 - url_launcher: (Launching URLs)
 
 
@@ -38,7 +30,7 @@ We have applied clean archeticture concept and here is the basic folder structur
 core folder structure that flutter provides:
 
 ```
-hotel-booking
+bookly_app
 ├── android
 ├── assets
 ├── build
@@ -59,7 +51,7 @@ lib
 ### core
 This folder contains all services and tools related to the application
 ```
-business_logic
+core
 ├── errors
 ├── utils
 ├── widgets
@@ -71,7 +63,7 @@ This folder containes :
 1) (views->  everything related to the screen of the application).
 2) (manger -> for logic or cubit ).
 ```
-data
+features
 ├── home ├── data
 ├        ├── presentation   ├── manger 
 ├                           ├── views 
